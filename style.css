@@ -1,0 +1,100 @@
+html, body {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+span {
+    border: 4px dashed white;
+    padding: 10px;
+}
+h1 {
+    font-family: 'Black Han Sans', sans-serif;
+}
+h2 {
+    margin-top: 30px;
+    font-family: 'Black Han Sans', sans-serif;
+}
+h2 span {
+    color: white;
+    border: 4px dashed white;
+    padding: 10px;
+    margin-left: 70px;
+ }
+p{
+    color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ---------------------------------------------------------------- */
+.container {
+    width: 99%;
+    height: 1100px;
+	position: static;
+    border: 5px solid white;
+    float: left;
+}
+/* ---------------------------------------------------------------- */
+.header {
+    width: 100%;
+    background-color:black;
+    float: left;
+ } 
+.header  h1 {
+	color: white;
+	font-family: 'Black Han Sans', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.header li {
+    float: left;
+}
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Black Han Sans', sans-serif;
+}
+.header li a:hover {
+    background-color: white;
+    color:black;
+}
+/* ---------------------------------------------------------------- */
+.contentl {
+    width: 40%;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:black;
+    float: left;
+ }
+ .contentl img {
+    width: 70%;
+    height: 60%;
+    margin-top: 10px;
+    margin-left: 70px;
+    border: 10px solid white;
+}
+/* ---------------------------------------------------------------- */
+ .contentr {
+    width: 58%;
+    height: 100%;
+    margin: 10px;
+    background-color:black;
+    float: left;
+ }
+.contentr li {
+    color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
